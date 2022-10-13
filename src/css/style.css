@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+   background: rgb(14, 13, 13);
+   display: flex;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+#celular{
+    border: 2px solid rgb(54, 50, 50);
+    background: #000;
+    width: 260px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+    
+    
+}
+#home{
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(54, 50, 50);
+    border-radius: 50%;
+    margin: 10px 0 10px;
+}
+#tela{
+    width: 240px;
+    height: 450px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: url(../imagens/papel-parede.jpg);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(54, 50, 50);
+    border-top: 0px;
+}
+#auto-falante{
+    width: 100px;
+    height: 10px;
+    background: #000;
+    margin-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgb(54, 50, 50);
+    border-top: 0px;
+   
+
+}
